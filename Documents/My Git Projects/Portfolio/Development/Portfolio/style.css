@@ -1,0 +1,295 @@
+body {
+	background-color: rgb(5, 25, 48);
+	overflow-x: hidden;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* the section contaions the design details for portfolio image */
+#img_container {
+    animation: Profile_img 4s ease-in-out 0s 1 normal forwards;
+    background: rgb(138,43,226);
+    background: rgb(138,43,226);
+    background: linear-gradient(158deg,rgb(138,43,226) 40%, rgba(0,17,51,1) 80%);
+    background: -webkit-linear-gradient(158deg,rgb(138,43,226) 40%, rgba(0,17,51,1) 80%);
+    background: -moz-linear-gradient(158deg,rgb(138,43,226) 40%, rgba(0,17,51,1) 80%);
+    display: flex;
+    overlay: rgb(138, 43, 226);
+    margin: auto;
+    margin-top: 9%;
+    justify-content: center;
+    align-items: center;
+    height: 725px;
+    width: 700px;
+
+    border-radius: 90% 10% 71% 29% / 42% 23% 77% 58% ;
+    overflow: hidden;
+    box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+		-moz-box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+}
+
+
+#img1 {
+    width: 800px;
+    height: 600px;
+    object-fit: fill;
+    overlay: rgb(138, 43, 226);
+    
+}
+#mainContainer {
+	display: flex;
+	background-color: rgba(63, 22, 177,0.5);
+	width: 90%;
+	margin: 1% auto;
+	height: 83vh;
+	border-radius: 20px;
+	box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+		-moz-box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+	
+}
+
+#main {
+	width: 40%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 12%;
+	margin-left: 5%;
+}
+#main h1{
+	color: rgb(187, 187, 218);
+	font-size: 70px;
+	font-weight: 500;
+} 
+
+#main h2{
+	color: rgb(152, 153, 226);
+	font-size: 50px;
+	font-weight: 250;
+} 
+
+#main p {
+	color: rgb(152, 153, 226);
+	font-size: 15px;
+	font-weight: 200;
+}
+
+button{
+	
+	padding: 1px 50px 1px 50px;
+	margin: 40px 40px 40px 300px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 40px;
+	border: 4px solid white;
+	font-size: 20px;
+	color: rgb(0, 26, 255);
+	animation: Button1 2s ease 0s 1 normal forwards;
+
+}
+
+#socials{
+	display: flex;
+	margin: -150px 39% 300px 40%;
+	padding: auto;
+	z-index: 3;
+	border-radius: 35px;
+	background-color: rgba(15, 21, 23, 0.18);
+	box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+		-moz-box-shadow: 2px 13px 30px 11px rgba(0,0,0,0.75);
+}
+
+#socials a{
+	margin: 20px;
+	padding: 20px;
+	margin: auto;
+	color: white;
+	font-size: 25px;
+	font-weight: 200;
+
+}
+
+/* button :hover{
+
+	padding: 1px 50px 1px 50px;
+	margin: 40px 40px 40px 300px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 40px;
+	border: 4px solid white;
+	font-size: 20px;
+	color: rgb(0, 26, 255);
+	animation: Button1 2s ease 0s 1 normal forwards;
+
+} */
+
+#navbar {
+
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#navbar ul {
+	list-style-type: none;
+	display: flex;
+	margin-left: auto;
+}
+
+#navbar img {
+	width: 2%;
+	margin-left: 100px;
+	align-self: center;
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	box-shadow: 1px 1px 29px -3px rgba(0, 195, 255, 0.58);
+-webkit-box-shadow: 1px 1px 29px -3px rgba(255,255,255,0.58);
+-moz-box-shadow: 1px 1px 29px -3px rgba(255,255,255,0.58);
+}
+
+#navbar img:hover {
+	width: 2%;
+	margin-left: 100px;
+	align-self: center;
+	border-radius: 200px;
+	box-shadow: 0px 0px 88px 44px rgba(255,255,255,0.75);
+				-webkit-box-shadow: 0px 0px 88px 44px rgba(255,255,255,0.75);
+				-moz-box-shadow: 0px 0px 88px 44px rgba(255,255,255,0.75);
+	transform: scale(1.2) ;
+				-webkit-transform: scale(1.2) ;
+				-moz-transform: scale(1.2) ;
+	transition: 2s;
+}
+
+#navList {
+	list-style-type: none;
+	display: flex;
+	margin-left: auto;
+}
+
+#navList li {
+	margin: 10px;
+	padding: 10px;
+
+}
+
+#navList li a {
+	text-decoration: none;
+	color: rgb(152, 153, 226);
+	font-size: 20px;
+	font-weight: 500;
+	font-size: 25px;
+	margin-right: 40px;
+}
+
+#navList li a:hover {
+	color: rgb(255, 255, 255);
+	box-shadow: 0px 108px 0px -94px rgba(255, 255, 255, 0.75);
+		-webkit-box-shadow: 0px 108px 0px -94px rgba(255, 255, 255, 0.75);
+		-moz-box-shadow: 0px 108px 0px -94px rgba(255, 255, 255, 0.75);
+		
+}
+
+#about {
+	width: 100%;
+	height: 10vh;margin-top: 8%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	
+}
+
+
+/* start of Key frames */
+
+
+@keyframes Profile_img {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+@keyframes Button1 {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
